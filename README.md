@@ -30,22 +30,35 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
-2. What is the difference between a function and a method?
+	Map not only iteratates over each item of the array, but it also returns a new array filled with the transformations made to each element.
+
+2.What is the difference between a function and a method?
+
+	A function is a series of statements that can be run (invoked) in a program; like a mini-program. A method is a function that is attached to an object. (All methods are functions, but not all functions are methods)
 
 3. What is closure?
 
+	Closure is a design pattern that takes advantage of scope within JavaScript. Functions in JavaScript create their own scope, but they also have access to the outward scope. This behavior can be exploited to create access restriction to certain variables within a program. The inner function of nested functions acts as a gateway through which data can be accessed rather than giving direct access to that data. 
+
 4. Describe the four rules of the 'this' keyword.
 
+   1. Global Binding - When in the global scope `this` is bound to the window.
+   2. Implicit Binding - When a function is attached to an object (invoked with dot/bracket notation), `this` is bound to that object.
+   3. Explicit Binding - `this` can be explicitly bound to another object by using the `call`, `apply`, or `bind` methods.
+   4. New Binding - When a object is created using `new` and a constructor function, `this` is bound to the new object the constructor function implicitly returns.
+
 5. Why do we need super() in an extended class?
+
+   The super function allows the child constructor to send required data into the parent contructor. It implicitly binds `this` to the object being created by the Child constructor. This allows the developer to follow the DRY priciple and resuse code that has already been written.
 
 ## Project Set up
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add PM as collaborator on Github.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Add PM as collaborator on Github.
+- [x] Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [x] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
 - [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
 - [ ] You are now ready to build this project with your preferred IDE
 - [ ] Implement the project on your Branch, committing changes regularly.
