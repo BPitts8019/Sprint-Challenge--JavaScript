@@ -32,9 +32,9 @@ Edit this document to include your answers after each question. Make sure to lea
 
 	Map not only iteratates over each item of the array, but it also returns a new array filled with the transformations made to each element.
 
-2.What is the difference between a function and a method?
+2. What is the difference between a function and a method?
 
-	A function is a series of statements that can be run (invoked) in a program; like a mini-program. A method is a function that is attached to an object. (All methods are functions, but not all functions are methods)
+	A function is a series of statements that can be run (invoked) in a program; like a mini-program. A method is a function that is attached to an object. **All methods are functions, but not all functions are methods**
 
 3. What is closure?
 
@@ -42,10 +42,10 @@ Edit this document to include your answers after each question. Make sure to lea
 
 4. Describe the four rules of the 'this' keyword.
 
-   1. Global Binding - When in the global scope `this` is bound to the window.
-   2. Implicit Binding - When a function is attached to an object (invoked with dot/bracket notation), `this` is bound to that object.
-   3. Explicit Binding - `this` can be explicitly bound to another object by using the `call`, `apply`, or `bind` methods.
-   4. New Binding - When a object is created using `new` and a constructor function, `this` is bound to the new object the constructor function implicitly returns.
+   **1. Global Binding** - When in the global scope `this` is bound to the window.
+   **2. Implicit Binding** - When a function is attached to an object (invoked with dot/bracket notation), `this` is bound to that object.
+   **3. Explicit Binding** - `this` can be explicitly bound to another object by using the `call`, `apply`, or `bind` methods.
+   **4. New Binding** - When a object is created using `new` and a constructor function, `this` is bound to the new object the constructor function implicitly returns.
 
 5. Why do we need super() in an extended class?
 
