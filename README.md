@@ -42,10 +42,10 @@ Edit this document to include your answers after each question. Make sure to lea
 
 4. Describe the four rules of the 'this' keyword.
 
-   **1. Global Binding** - When in the global scope `this` is bound to the window.
-   **2. Implicit Binding** - When a function is attached to an object (invoked with dot/bracket notation), `this` is bound to that object.
-   **3. Explicit Binding** - `this` can be explicitly bound to another object by using the `call`, `apply`, or `bind` methods.
-   **4. New Binding** - When a object is created using `new` and a constructor function, `this` is bound to the new object the constructor function implicitly returns.
+   1. **Global Binding** - When in the global scope `this` is bound to the window.
+   2. **Implicit Binding** - When a function is attached to an object (invoked with dot/bracket notation), `this` is bound to that object.
+   3. **Explicit Binding** - `this` can be explicitly bound to another object by using the `call`, `apply`, or `bind` methods.
+   4. **New Binding** - When a object is created using `new` and a constructor function, `this` is bound to the new object the constructor function implicitly returns.
 
 5. Why do we need super() in an extended class?
 
