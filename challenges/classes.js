@@ -31,6 +31,7 @@ class CubeMaker extends CuboidMaker {
       super(edge, edge, edge);
    }
 
+   //These are commented out as they are unnecessary, but I added them because it was in the request
    // volume () {
    //    return this.length * this.length * this.length;
    // }
